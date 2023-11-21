@@ -17,18 +17,25 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
     <link rel="styles" href="/src/style.css" />
   </head>
-  <body>
+  <body class="bg-success bg-gradient">
+    <!-- Carta -->
     <div
-      class="container-fluid  card mb-3 mt-5"
+      class="container-fluid  card mb-3 mt-5 mb-5 rounded-4"
       style="max-width: 25rem; height: 35rem;"
     >
-      <div class="card-header bg-transparent palos text-left"></div>
-      <div class="card-body text-success">
-        <p class="card-text text-center numeros"></p>
+      <div
+        class="bg-transparent palos text-left"
+        style="font-size: 100px;"
+      ></div>
+      <div class="card-body text-success position-relative">
+        <p
+          class="card-text text-center numeros position-absolute top-50 start-50 translate-middle text-dark"
+          style="font-size: 180px;"
+        ></p>
       </div>
       <div
-        class="card-footer bg-transparent palos "
-        style="transform: rotate(180deg);"
+        class="bg-transparent palos"
+        style="transform: rotate(180deg); font-size: 100px;"
       ></div>
     </div>
   </body>
